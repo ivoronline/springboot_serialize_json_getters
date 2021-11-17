@@ -3,13 +3,13 @@ package com.ivoronline.springboot_serialize_json_getters.dto;
 public class PersonDTO {
 
   //PROPERTIES
-  public Integer id;
-  public String  name;
-  public Integer age;
+  public Integer propId;
+  public String  propName;
+  public Integer propAge;
 
   //GETTERS (Used for Serialization)
-  public Integer getId  () { return id;               }
-  public String  getName() { return "Getter " + name; }
-  public Integer getAge () { return age;              }
+  public Integer getId  () { return propId;               }
+  public String  getName() { return "Getter " + propName; }
+  public Integer getAge () { return propAge;              }
 
 }
